@@ -4,24 +4,56 @@
       <title>Registration Form</title>
     </head>
 
-    <h1>Enquiry form</h1>
+    <h1 >Student Registration Form</h1>
 
     <form>
       <fieldset>
-        <legend>Enquiry Form</legend>
-      Name : &nbsp &nbsp &nbsp<input
+        <legend>Fill the Form</legend>
+        Name : &nbsp &nbsp
+        <input
         type="text"
-        value=" "
-        placeholder="Enter your name here.."
+        name="Name"
+        required=""
+        placeholder="Enter your name"
+        autofocus=""
       />
       <br />
+      <br/>
+      Course :&nbsp &nbsp
+      <select>
+        <optgroup label="Computer Science"></optgroup>
+        <option value="B.tech"> B.tech</option>
+        <option value="M.TECH"> M.tech</option>
+        <option value="MCA"> MCA</option>
+        <option value="bca"> BCA</option>
+        <optgroup label="HUMANITIES"></optgroup>
+        <option value="B.A">B.A</option>
+        <option value="M.A">M.A</option>
+        <option value="I.A">I.A</option>
+      </select>
+      <br/>
+      <br/>
+      Date Of Birth:
+      <input type="date" name="Date of birth"/>
       <br />
+      <br/>
       Address :&nbsp
       <textarea> </textarea> <br />
       <br />
       Gender : <input type="radio" value="m" name="gender" /> Male
       <input type="radio" value="f" name="gender" /> Female <br />
+
       <br />
+      State:&nbsp &nbsp&nbsp&nbsp&nbsp
+        <select>
+          <option>Bihar</option>
+        <option>UP</option>
+        <option>Delhi</option>
+        <option>Jharkhand</option>
+        <option>Gujrat</option>
+        </select>
+        <br/>
+        <br/>
       Country :
       <select>
         <optgroup label="Asia"></optgroup>
@@ -29,11 +61,12 @@
         <option>Pakistan</option>
         <option>China</option>
         <optgroup label="Europe"
-        <option>javapan</option>
+        <option>japan</option>
         <option>USA</option>
         <option>Other</option>
       </select>
       <br />
+      <br/>
       Hobbies :
       <input type="checkbox" name="hobbies" >Reading
       <input type="checkbox" name="hobbies" >Playing
@@ -45,7 +78,7 @@
       <input type="file" name="image"/>
       <br>
       <br>
-      <input type="submit" value="Send" />
+      <input type="submit" value="Send" /> &nbsp&nbsp&nbsp&nbsp
       <input type="reset" value="Send" />
     </fieldset>
     </form>
