@@ -1,0 +1,15 @@
+<?xml version="1.0">
+<!DOCTYPE note[
+<!ELEMENT note(to,form,heading)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT form(#PCDATA)>
+<!ELEMENT heading(#PCDATA)>
+<!ELEMENT body(#PCDATA)>
+]>
+<note>
+  <date>2015-09-01</date>
+  <hour>08:30</hour>
+  <to>Tove</to>
+  <from>Jani</from>
+  <body> Don't forget me this weekend! </body>
+</note>
